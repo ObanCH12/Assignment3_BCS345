@@ -1,0 +1,10 @@
+.mainFxmlClass {
+    -fx-background-color:black;
+
+}
+Button{
+    -fx-background-color:cyan;
+}
+TextField{
+    -fx-background-color:yellow;
+}

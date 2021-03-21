@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="583.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="assignment4.LayoutGUIController">
+    <stylesheets>
+        <URL value="@layoutgui.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="6.0" prefHeight="400.0" prefWidth="587.0">
+         <children>
+            <TextField fx:id="opperand" layoutX="38.0" layoutY="28.0" prefHeight="81.0" prefWidth="521.0">
+               <font>
+                  <Font name="Baskerville Old Face" size="22.0" />
+               </font>
+            </TextField>
+            <Button fx:id="Num2" layoutX="231.0" layoutY="177.0" mnemonicParsing="false" onAction="#processNum" prefHeight="47.0" prefWidth="68.0" text="2" />
+            <Button fx:id="Num1" layoutX="154.0" layoutY="177.0" mnemonicParsing="false" onAction="#processNum" prefHeight="47.0" prefWidth="68.0" text="1" />
+            <Button fx:id="Num4" layoutX="154.0" layoutY="232.0" mnemonicParsing="false" onAction="#processNum" prefHeight="47.0" prefWidth="68.0" text="4" />
+            <Button fx:id="Num9" layoutX="304.0" layoutY="285.0" mnemonicParsing="false" onAction="#processNum" prefHeight="47.0" prefWidth="68.0" text="9" />
+            <Button fx:id="Num7" layoutX="154.0" layoutY="285.0" mnemonicParsing="false" onAction="#processNum" prefHeight="47.0" prefWidth="68.0" text="7" />
+            <Button fx:id="Num3" layoutX="304.0" layoutY="177.0" mnemonicParsing="false" onAction="#processNum" prefHeight="47.0" prefWidth="68.0" text="3" />
+            <Button fx:id="Num5" layoutX="231.0" layoutY="232.0" mnemonicParsing="false" onAction="#processNum" prefHeight="47.0" prefWidth="68.0" text="5" />
+            <Button fx:id="equal" layoutX="157.0" layoutY="118.0" mnemonicParsing="false" onAction="#processOptn" prefHeight="47.0" prefWidth="217.0" text="=" />
+            <Button fx:id="Num6" layoutX="304.0" layoutY="232.0" mnemonicParsing="false" onAction="#processNum" prefHeight="47.0" prefWidth="68.0" text="6" />
+            <Button fx:id="Num8" layoutX="231.0" layoutY="285.0" mnemonicParsing="false" onAction="#processNum" prefHeight="47.0" prefWidth="68.0" text="8" />
+            <Button fx:id="subtract" layoutX="378.0" layoutY="177.0" mnemonicParsing="false" onAction="#ArtOp" prefHeight="47.0" prefWidth="68.0" text="-" />
+            <Button fx:id="add" layoutX="378.0" layoutY="118.0" mnemonicParsing="false" onAction="#ArtOp" prefHeight="47.0" prefWidth="68.0" text="+" />
+            <Button fx:id="divide" layoutX="378.0" layoutY="285.0" mnemonicParsing="false" onAction="#ArtOp" prefHeight="47.0" prefWidth="68.0" text="/" />
+            <Button fx:id="multiply" layoutX="378.0" layoutY="232.0" mnemonicParsing="false" onAction="#ArtOp" prefHeight="47.0" prefWidth="68.0" text="x" />
+            <Button fx:id="Num0" layoutX="157.0" layoutY="339.0" mnemonicParsing="false" onAction="#processNum" prefHeight="47.0" prefWidth="217.0" text="0" />
+            <Button fx:id="clear" layoutX="378.0" layoutY="339.0" mnemonicParsing="false" onAction="#Clear" prefHeight="47.0" prefWidth="68.0" text="C" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
